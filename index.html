@@ -1,12 +1,236 @@
+
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Техномарт</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+<head>
+	<meta charset="utf-8">
+	<title>Техномарт-Интернет магазин строительных материалов</title>
+</head>
 
-  </body>
+<body>
+	<header class="main-header">
+		<div class="search-bookmarks">
+			<a class="logo-techmart" href="#">
+				<img src="http://placehold.it/150x100" alt="Техномарт">
+			</a>
+			<form action="#" method="get">
+				<label>Поиск<input type="search" name="search"></label>
+			</form>
+			<div class="bookmarks">
+				<p><img src="http://placehold.it/20x30" alt="Закладки">
+					<p class="bookmarks">Закладки: 0</p>
+			</div>
+			<div class="Basket">
+				<img src="http://placehold.it/20x30" alt="Корзина">
+				<p class="bookmarks">Корзина: 0</p>
+			</div>
+			<div class="checkout">
+				<a href="#">Оформить заказ</a>
+			</div>
+		</div>
+		<section class="header-mid">
+			<h1 class="header-index">Интеренет магазин строительных материалов и инструментов для ремонта</h1>
+			<div class="phone">
+				<img src="http://placehold.it/20x30" alt="телефон">
+				<p>+7(812)555-05-55
+				</p>
+			</div>
+			<p class="address">г.Санкт-Пертербург, ул.Б.конюшенная, д.19/8</p>
+			<form action="/echo" method="post">
+				<div class="buttons">
+					<!-- Такой вариант разметки входа можно? -->
+					<button type="submit">Войти <img src="http://placehold.it/20x30" alt="Вход"></button>
+				</div>
+			</form>
+			<div class="registration">
+				<a href="#">Регистрация</a></div>
+		</section>
+		<div class="nav-container">
+			<nav class="main-menu">
+				<ul>
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Компания</a></li>
+					<li><a href="#">Каталог</a></li>
+					<li><a href="#">Новости</a></li>
+					<li><a href="#">Спецпредложения</a></li>
+					<li><a href="#">Доставка</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main class="index-main">
+		<div class="up-main">
+			<form class="content-form">
+				<button type="submit">На любой вкус<img src="http://placehold.it/150x100" alt="Материалы"></button>
+			</form>
+			<!-- кнопка внутри картинки? Правильна ли такая конструкция?(исходя из тех.задания или делать div+div c кнопкой например?) -->
+			<form class="content-form">
+				<button type="submit">На все случаи<img src="http://placehold.it/150x100" alt="Инструмент"></button>
+			</form>
+			<form class="content-form">
+				<button type="submit">Для стройки<img src="http://placehold.it/150x100" alt="Техника"></button>
+			</form>
+			<div class="slider">
+				<!--Вообще не знаю как делать слайдер, подскажите где посмотреть или как сделать без js?-->
+				<figure>
+					<img src="http://placehold.it/150x100" alt="Перфораторы">
+					<figcaption>Перфораторы</figcaption>
+				</figure>
+				<div class="open-catalog"><a href="#">Открыть каталог</a>
+				</div>
+			</div>
+			<!--другая разметка такого же блока, какая правильная?-->
+			<div class="discounts"><a class="350-items" href="#">На 350 товаров</a><img src="http://placehold.it/150x100" alt="Скидки-50%">
+			</div>
+			<div class="shipping"><a href="#">Бесплатно</a><img src="http://placehold.it/150x100" alt="Доставка">
+			</div>
+		</div>
+		<div class="popular-products">
+			<h2 class="main-pop-products">Популярные товары:</h2>
+			<a class="mid-main-pop-products" href="#">Все популярные товары</a>
+		</div>
+		<div class="perforators">
+			<div class="perforators1"> <img src="http://placehold.it/150x100" alt="Перфоратор">
+				<p class="Bosch">Перфоратор Bosch BFG 9000</p>
+				<del>32500р.</del>
+				<div class="price">25500р.</div>
+			</div>
+			<div class="perforators2"><img src="http://placehold.it/150x100" alt="Перфоратор">
+				<p class="Bosch">Перфоратор Bosch BFG 9000</p>
+				<del>22500р.</del>
+				<div class="price">15500р.</div>
+			</div>
+			<div class="perforators3"><img src="http://placehold.it/150x100" alt="Перфоратор">
+				<p class="Bosch">Перфоратор Bosch BFG 9000</p>
+				<del>30500р.</del>
+			</div>
+			<div class="price">25500р.</div>
+			<div class="perforators4"><img src="http://placehold.it/150x100" alt="Перфоратор">
+				<p class="Bosch">Перфоратор Bosch BFG 9000</p>
+				<div class="price">12500р.</div>
+			</div>
+		</div>
+		<div class="popular-manufacturers">
+			<h2 class="main-manufacturers">Популярные производители:</h2>
+			<a class="manufacturers" href="#">Все производители</a>
+		</div>
+		<div class="low main">
+			<div class="brands">
+				<a href="#"><img src="http://placehold.it/150x70" alt="Bosch"></a>
+			</div>
+			<div class="brands">
+				<a href="#"><img src="http://placehold.it/150x70" alt="Makita"></a>
+			</div>
+			<div class="brands">
+				<a href="#"><img src="http://placehold.it/150x70" alt="DeWalt"></a>
+			</div>
+			<div class="brands">
+				<a href="#"><img src="http://placehold.it/150x70" alt="Интерскол"></a>
+			</div>
+			<div class="brands">
+				<a href="#"><img src="http://placehold.it/150x70" alt="Hitachi"></a>
+			</div>
+			<div class="brands">
+				<a href="#"><img src="http://placehold.it/150x70" alt="LG"></a>
+			</div>
+			<div class="brands">
+				<a href="#"><img src="http://placehold.it/150x70" alt="AEG"></a>
+			</div>
+			<div class="brands">
+				<a href="#"><img src="http://placehold.it/150x70" alt="Metabo"></a>
+			</div>
+		</div>
+	</main>
+	<section class="service">
+		<h3 class="index-service">Сервисы</h3>
+		<img src="http://placehold.it/150x300" alt="Car">
+		<h2>Доставка</h2>
+		<p>Хороший интернет магазин отличается от прохого не только ценами! Мы стораемся изо всех сил, чтобы сделать ваши покупки
+			приятными.
+		</p>
+		<!--Дальше не поняла что это? и как делать разметку? Слайдер?-->
+		<form action="#" method="post">
+			<select name="services">
+                <option>Доставка</option>
+                <option>Гарантия</option>
+                <option>кредит</option>
+                            </select>
+		</form>
+		<p>Мы с удовольствием доставим ваш товар к вашему подъезду совершенно бесплатно! ведь мы неплохо зарабатываем, поднимая его
+			на ваш этаж!</p>
+	</section>
+	<section class="maps">
+		<div class="section-Technomart">
+			<h3>Компания "Техномарт"</h3>
+			<p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными
+				съэкономить на гастарбайтерах.
+			</p>
+			<p>Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со мнгими транспортными компаниями:</p>
+			<p><b>- Деловые линии</b></p>
+			<p><b>- Автотрейдинг</b></p>
+			<p><b>- ЖелДорЭкспедиция</b></p>
+			<a href="#">Подробнее о компании</a>
+		</div>
+		<div class="section-contacts">
+			<h3>Контакты</h3>
+			<a href="#"><img src="http://placehold.it/150x100" alt="Карта проезда"></a>
+			<div class="lost"><a href="#">Заблудились? Напишите нам!</a>
+			</div>
+		</div>
+
+	</section>
+	<footer class="main-footer">
+		<div class="footer-container">
+			<div class="logo-low">
+				<a class="logo-techmart" href="#">
+					<img src="http://placehold.it/150x100" alt="Техномарт">
+				</a>
+			</div>
+			<div class="nav-container-low">
+				<nav class="low-menu">
+					<ul>
+						<li><a href="#">Компания</a></li>
+						<li><a href="#">Новости</a></li>
+						<li><a href="#">Каталог</a></li>
+						<li><a href="#">Доставка</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="footer-contacts ">
+				Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8 Телефон: +7 (812) 666-02-66
+			</div>
+			<div class="nav-container-low2">
+				<nav class="low-menu2">
+					<ul>
+						<li><a href="#">Материалы</a></li>
+						<li><a href="#">Техника</a></li>
+						<li><a href="#">Инструмент</a></li>
+						<li><a href="#">Спецпердложения</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<section class="footer-social ">
+			<div class="copyright">
+				<h6>2010-2016 Компания "Техномарт" все права защищены
+				</h6>
+			</div>
+			<div class="cocial-index"><a class="social-btn social-btn-vk " href="# ">Вконтакте</a>
+				<a class="social-btn social-btn-fb " href="# ">Фейсбук</a>
+				<a class="social-btn social-btn-inst " href="# ">Инстаграм</a>
+			</div>
+		</section>
+		<div class="email">
+			<p>Обратная связь:mail@htmlacademy.ru</p>
+		</div>
+		<div class="developer">
+			<p>Разработано-
+				<a href="#">htmlacademy.ru</a></p>
+		</div>
+	</footer>
+</body>
+
 </html>
