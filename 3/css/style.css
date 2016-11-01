@@ -1,0 +1,19 @@
+body {
+    font-size: 14px;
+    font-family: Cuprum, sans-serif;
+    color: #000000;
+    line-height: 24px;
+    font-weight: regular;
+}
+
+h1 {
+    font-size: 16px;
+    line-height: 23px;
+    color: #ee3643;
+    font-style: italic;
+}
+
+h2 {
+    color: #32425c;
+    font-size: 36px;
+}
