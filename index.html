@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <title>Техномарт-Интернет магазин строительных материалов</title>
-    <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="css/style.css" rel="stylesheet">
 </head>
-
 <body>
     <!--хедер-->
     <header class="header">
@@ -15,17 +15,17 @@
             <!--центровщик-->
             <div class="container">
                 <a class="logo-techmart" href="#">Техномарт</a>
-                <form action="#" method="get">
+                <form class="formline" action="#" method="get">
                     <input type="search" name="search" value="" placeholder="Поиск:">
                 </form>
-                <div class="bookmarks">
+                <div class="bookmark">
                     <a class="bookmarks" href="#">Закладки: 0</a>
                 </div>
                 <div class="basket">
                     <a class="bookmarks" href="#">Корзина: 0</a>
                 </div>
                 <div class="checkout">
-                    <a href="#">Оформить заказ</a>
+                    <a class="bookmarks" href="#">Оформить заказ</a>
                 </div>
             </div>
         </div>
@@ -35,41 +35,42 @@
             <div class="container">
                 <!--блок с заголовком тел регистрацией-->
                 <div class="header-light-block">
-                    <h1 class="header-index">Интернет магазин строительных материалов и инструментов для ремонта</h1>
+                    <h1 class="header-text">Интернет магазин строительных материалов и инструментов для ремонта</h1>
                     <div class="phone">
-                        <p>+7(812)555-05-55</p>
+                        <p class="phone-number">+7 (812) 555-05-55</p>
                     </div>
-                    <p class="address">г.Санкт-Пертербург, ул.Б.Конюшенная, д.19/8</p>
-                    <div class="user-block">
+                    <p class="address">г. Санкт-Петербург,ул. Б. Конюшенная, д. 19/8</p>
+                    <div class="user-enter">
                         <!--блок для незарегистрированного пользователя-->
-                        <a href="#">Войти</a>
-                        <a href="#">Регистрация</a>
-                    </div>
+                        <a class="enter" href="#">Войти</a>
+                      
+                        <a class="registration" href="#">Регистрация</a>
+                     </div>
                 </div>
             </div>
             <div class="nav-container">
                 <nav class="main-menu">
-                    <ul>
+                    <ul class="nav-menu">
                         <li>
-                            <a href="#">Главная</a>
+                            <a class="nav-bookmarks" href="#">Главная</a>
                         </li>
                         <li>
-                            <a href="#">Компания</a>
+                            <a class="nav-bookmarks" href="#">Компания</a>
                         </li>
                         <li>
-                            <a href="#">Каталог</a>
+                            <a class="nav-bookmarks" href="#">Каталог</a>
                         </li>
                         <li>
-                            <a href="#">Новости</a>
+                            <a class="nav-bookmarks" href="#">Новости</a>
                         </li>
                         <li>
-                            <a href="#">Спецпредложения</a>
+                            <a class="nav-bookmarks" href="#">Спецпредложения</a>
                         </li>
                         <li>
-                            <a href="#">Доставка</a>
+                            <a class="nav-bookmarks" href="#">Доставка</a>
                         </li>
                         <li>
-                            <a href="#">Контакты</a>
+                            <a class="nav-bookmarks" href="#">Контакты</a>
                         </li>
                     </ul>
                 </nav>
@@ -80,33 +81,36 @@
         <div class="container">
             <div class="all-promo">
                 <div class="up-promo">
-                    <div class="content-block">
-                        Материалы
-                        <a class="350-items" href="#">На любой вкус</a>
-                        <img src="img/vedro.png" width="44" height="65" alt="Материалы">
+                    <div class="content-block-a">
+                        <p class="items-name">Материалы</p>
+                        <img class="white-img" src="img/vedro.png" width="44" height="65" alt="Материалы">
+                        <a class="items" href="#">На любой вкус</a>
+                        
                     </div>
-                    <div class="content-block">
-                        Инструмент
-                        <a class="350-items" href="#">На все случаи</a>
-                        <img src="img/drel.png" width="75" height="61" alt="Инструмент">
+                    <div class="content-block-b">
+                        <p class="items-name">Инструмент</p>
+                        <img class="white-img" src="img/drel.png" width="75" height="61" alt="Инструмент">
+                        <a class="items" href="#">На все случаи</a>
+                        
                     </div>
-                    <div class="content-block">
-                        Техника
-                        <a class="350-items" href="#">Для стройки</a>
-                        <img src="img/traktor.png" width="78" height="62" alt="Техника">
+                    <div class="content-block-c">
+                        <p class="items-name">Техника</p>
+                        <img class="white-img" src="img/traktor.png" width="78" height="62" alt="Техника">
+                        <a class="items" href="#">Для стройки</a>
+                        
                     </div>
                 </div>
                 <div class="down-promo">
                     <div class="slider">
                         <div class="slides">
                             <div class="slide">
-                                <h2>Перфораторы</h2>
+                                <h2 class="slider-title">Перфораторы</h2>
                                 <p>Настоящие мужские игрушки</p>
                                 <img src="img/man1.png" width="620" height="266" alt="Рабочий1">
                                 <a class="open-catalog" href="#">Открыть каталог</a>
                             </div>
                             <div class="slide">
-                                <h2>Дрели</h2>
+                                <h2 class="slider-title">Дрели</h2>
                                 <p>Cоседям на радость!</p>
                                 <img src="img/man2.png" width="620" height="266" alt="Рабочий2">
                                 <a class="open-catalog" href="#">Открыть каталог</a>
@@ -119,15 +123,17 @@
                         </div>
                     </div>
                     <div class="down-promo-right">
-                        <div class="content-block">
-                            Скидки 50%
-                            <a class="350-items" href="#">На 350 товаров</a>
-                            <img src="img/korzina.png" width="59" height="72" alt="Скидки-50%">
+                        <div class="content-block-d">
+                            <p class="items-name">Скидки&nbsp;50%</p>
+                            <img class="white-img" src="img/korzina.png" width="59" height="72" alt="Скидки-50%">
+                            <a class="items" href="#">На 350 товаров</a>
+                            
                         </div>
-                        <div class="content-block">
-                            Доставка
-                            <a class="350-items" href="#">Бесплатно</a>
-                            <img src="img/car.png" width="78" height="63" alt="Доставка">
+                        <div class="content-block-a">
+                            <p class="items-name">Доставка</p>
+                            <img class="white-img" src="img/car.png" width="78" height="63" alt="Доставка">
+                            <a class="items" href="#">Бесплатно</a>
+                            
                         </div>
                     </div>
                 </div>
