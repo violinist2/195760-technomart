@@ -1,10 +1,12 @@
 
 body {
     font-size: 14px;
-    font-family: Cuprum, Arial, sans-serif;
+    font-family: Cuprum, Open Sans, Arial, sans-serif;
     color: #000000;
     line-height: 24px;
     font-weight: normal;
+    background: white;
+    min-width: 960px;
 }
 
 h1 {
@@ -12,10 +14,317 @@ h1 {
     line-height: 23px;
     color: #ee3643;
     font-style: italic;
+    
 }
 
 h2 {
     color: #32425c;
     font-size: 36px;
 }
+
+.header{
+   
+    background:#f1f5f7;
+    
+}
+.container{
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px; 
+}
+.search-bookmarks{
+
+background: #32425c;
+height: 42px;
+
+}
+
+
+
+
+
+.logo-techmart{
+color:#ffffff;
+background:#ee3643;
+font-size: 24px;
+font-family: Cuprum;
+font-weight: normal;
+width:220px;
+height: 35px;
+text-align: center;
+float: left;
+text-decoration: none;
+margin-right: 5px;
+padding-top: 7px;
+text-transform:uppercase;
+
+}
+
+
+
+
+
+.formline{
+float:left;
+margin-left: 15px;
+width: 238px;
+padding-top:7px;
+padding-left:2px;
+
+}
+input{
+background: #32425c;
+color: white;   
+font-size:17px;
+font-family:Cuprum;
+outline: none;
+border: 1px solid #32425c;
+}
+
+.bookmarks{
+font-size:17px;
+color: white;
+width: 150px;
+text-align: center;
+display: inline-block;
+text-decoration: none;
+height: 35px;
+padding-top: 7px;
+}
+
+.bookmark{
+ float:left;
+margin-left: 8px;
+
+}
+
+.basket{
+float:left;
+
+
+}
+
+.checkout{
+background: #63a63e;
+width: 150px;
+float:left;
+height: 42px;
+margin-left: 0px; 
+margin-right: 0px;
+}
+
+
+
+.header-text{
+    
+    width: 210px;
+    margin-bottom: 40px;
+    text-align: left;
+    display: table;
+    float: left;
+    margin-top:25px;
+    margin-right: 20px;
+    margin-left: 60px;
+    
+}
+.phone-number{
+display: inline;
+padding-top: 15px;
+vertical-align: middle;
+}
+
+.phone{
+    height:41px;
+    width:144px;/*144*/
+    color:#e9292a;
+    font-size:21px;
+    float: left;
+    border:solid white 2px;
+    text-align: center;
+    margin-top:20px;
+    margin-left: 50px;
+    padding-bottom:px;
+    padding-right: 57px;
+    margin-right: 60px;
+    padding-left: 50px;
+    
+}
+.address{
+color:#32425c;   
+float:left;
+margin-top: 4px;
+margin-right:0px;
+margin-bottom: px;
+margin-left: 55px;
+width: 250px;
+height: 3px;
+padding-right: 55px;
+padding-top:2px;
+
+}
+
+
+
+
+
+.enter { /*a класс*/
+ font-size:21px;
+color: black;
+background: white;
+text-align: center;
+text-decoration: none;
+ height: 36px;
+width: 121px;
+margin-top:20px;
+
+display: inline-block;
+padding-top:9px;
+
+}
+.registration { /*a класс*/
+ font-size:21px;
+color: black;
+background: white;
+text-align: center;
+text-decoration: none;
+ height: 36px;
+width: 150px;
+margin-left:10px;
+display: inline-block;
+padding-top:9px;
+
+
+}
+
+
+.header-low{
+background: #f1f5f7;
+padding-top: 20px;
+height: 257px;
+padding-bottom:10px;
+
+}
+
+.nav-container{
+background: #32425c;
+height: 60px;
+margin:auto;
+width: 940px;
+margin-top: 80px;
+
+}
+.nav-menu li {
+
+ list-style-type: none;   
+}
+.nav-bookmarks{
+font-size:17px;
+color: white;
+text-align: center;
+float: left;
+text-decoration: none;
+height: 45px;
+padding-right:28px;
+margin-left: 22px;
+margin-right: 10px;
+padding-top:15px;
+}
+
+.content-block-a{
+width: 300px;
+height: 123px;
+ float:left;   
+background:#f6b22d; 
+margin-right:20px;
+
+}
+
+.content-block-b{
+width: 300px;
+height: 123px;
+ float:left;   
+color:white;
+background:#4aafde; 
+font-size: 24px;
+margin-right:10px;
+}
+.content-block-b a {
+ background:#429dc7;
+
+}
+
+.content-block-c{
+width: 300px;
+height: 123px;
+ float:left;   
+color:white;
+background:#cc79d1; 
+font-size: 24px;
+margin-left: 10px;
+}
+.content-block-c a {
+ background:#b76dbc;}
+
+.content-block-d{
+width: 300px;
+height: 123px;
+ float:left;   
+color:white;
+background:#85d179; 
+font-size: 24px;
+}
+.content-block-d a {
+ background:#77bc6d;
+ }
+.items{
+font-size: 14px;
+width: 135px;/*87 12 135 38 */
+height:30px;
+color: white;
+text-align: center;
+text-decoration: none;
+background:#dda028;
+display:block;
+text-transform:uppercase;
+margin-left: 32px;
+margin-top:-40px;
+padding-top:8px;
+
+
+}
+
+.white-img{
+display: inline-block;
+padding-top: 30px;
+
+}
+
+.items-name{
+display:inline-block;
+vertical-align: top;
+font-size: 24px;
+color: white;
+padding-left: 30px;
+width: 81px;
+height: 22px;
+margin-bottom: 0px;
+padding-right: 90px;
+
+}
+.up-promo{
+padding-top: 60px;
+
+}
+
+.slider-title{
+ color:black;   
+ font-family: Cuprum;
+text-transform:uppercase;
+font-weight:bold;
+}
+
+.slides{
+float:left;
+
+
 
