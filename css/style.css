@@ -1,12 +1,12 @@
-
 body {
     font-size: 14px;
-    font-family: Cuprum, Open Sans, Arial, sans-serif;
+    font-family:"Cuprum","Open Sans", Arial, sans-serif;
     color: #000000;
     line-height: 24px;
     font-weight: normal;
     background: white;
     min-width: 960px;
+    margin:0px;
 }
 
 h1 {
@@ -14,7 +14,7 @@ h1 {
     line-height: 23px;
     color: #ee3643;
     font-style: italic;
-    
+    font-weight: lighter;
 }
 
 h2 {
@@ -30,205 +30,297 @@ h2 {
 .container{
   width: 940px;
   margin: 0 auto;
-  padding: 0 10px; 
+  padding-left: 10px; 
+  padding-right: 10px;
+
 }
 .search-bookmarks{
 
 background: #32425c;
-height: 42px;
+
 
 }
-
-
-
-
 
 .logo-techmart{
 color:#ffffff;
 background:#ee3643;
 font-size: 24px;
-font-family: Cuprum;
-font-weight: normal;
-width:220px;
-height: 35px;
-text-align: center;
-float: left;
-text-decoration: none;
-margin-right: 5px;
-padding-top: 7px;
-text-transform:uppercase;
-
-}
-
-
-
-
-
-.formline{
-float:left;
-margin-left: 15px;
-width: 238px;
-padding-top:7px;
-padding-left:2px;
-
-}
-input{
-background: #32425c;
-color: white;   
-font-size:17px;
-font-family:Cuprum;
-outline: none;
-border: 1px solid #32425c;
-}
-
-.bookmarks{
-font-size:17px;
-color: white;
-width: 150px;
+width:219px;
+padding:9px 0px;
 text-align: center;
 display: inline-block;
 text-decoration: none;
-height: 35px;
-padding-top: 7px;
-}
+text-transform:uppercase;
 
-.bookmark{
- float:left;
-margin-left: 8px;
 
 }
 
+.sprite-icon-search {
+    width: 17px;
+    height: 17px;
+    background-position: -62px -34px;
+    background-image: url("../img/sprite-chrome.png");
+    display: inline-block;
+    margin-left:14px;
+    margin-right:8px;
+
+}
+
+
+.formline{
+display: inline-block;
+
+
+}
+
+input{
+background: #32425c;  
+font-size:17px;
+font-family: "Cuprum";
+outline: none;
+border:solid #32425c 1px;
+color:white;
+width: 239px;
+line-height:16px;
+height: 17px;
+vertical-align:top;
+
+}
+.bookmark:before {content:"";
+    width: 14px;
+    height: 16px;
+    background-position: -32px -5px;
+    background-image: url("../img/sprite-chrome.png");
+    margin-right:8px;
+    display: inline-block;
+    }
+
+.nav-line-links{/*общий класс ссылок верхней плашки*/
+font-size:17px;
+color: white;
+text-decoration: none;
+line-height:16px;
+height: 15px;
+vertical-align:top;
+}
+
+.bookmark{/**/
+ display: inline-block;
+
+}
 .basket{
-float:left;
+ display: inline-block;   
+
+}
 
 
+.basket:before {content:"";
+    width: 17px;
+    height: 16px;
+    background-position: -5px -5px;
+    background-image: url("../img/sprite-chrome.png");
+    display:inline-block;
+    margin-left:40px;
+    margin-right:13px;
 }
 
 .checkout{
 background: #63a63e;
 width: 150px;
-float:left;
-height: 42px;
-margin-left: 0px; 
-margin-right: 0px;
+display: inline-block;
+height: 30px;
+margin-left: 27px; 
+padding-top: 12px;
+text-align:center;
 }
 
+.header-left-block{
+width: 621px;
+float: left;
+padding-top: 25px;
+margin-bottom: 28px;
 
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.user-block{
+ float: right;   
+width: 300px;
+margin-top: 20px;
+
+}
 
 .header-text{
-    
+    float:left;
     width: 210px;
-    margin-bottom: 40px;
-    text-align: left;
-    display: table;
-    float: left;
-    margin-top:25px;
-    margin-right: 20px;
-    margin-left: 60px;
-    
-}
-.phone-number{
-display: inline;
-padding-top: 15px;
-vertical-align: middle;
+    margin-top:23px;
+    margin-left:51px;
 }
 
 .phone{
-    height:41px;
-    width:144px;/*144*/
+    
+    width:257px;
     color:#e9292a;
     font-size:21px;
-    float: left;
-    border:solid white 2px;
+    border:solid white 3px;
     text-align: center;
-    margin-top:20px;
-    margin-left: 50px;
-    padding-bottom:px;
-    padding-right: 57px;
-    margin-right: 60px;
-    padding-left: 50px;
-    
+    margin-top:21px;
+    margin-left:57px;
+    margin-right: 10px;
+    padding-bottom:7px;
+    padding-right: 8px;
+    padding-top: 7px;
+    float: left;
 }
+
+.phone:before {content:"";
+    width: 19px;
+    height: 19px;
+    background-position: -76px -5px;
+    background-image: url("../img/sprite-chrome.png");
+    margin-left:13px;
+    margin-top: 2px;
+    float: left;
+}
+
+
 .address{
 color:#32425c;   
-float:left;
-margin-top: 4px;
-margin-right:0px;
-margin-bottom: px;
-margin-left: 55px;
+margin-right:41px;
 width: 250px;
-height: 3px;
-padding-right: 55px;
-padding-top:2px;
-
+padding-top:4px;
+float:right;
 }
 
 
-
-
+.enter:before {content: "";
+    width: 30px;
+    height: 17px;
+    background-position: -32px -33px;
+    display:inline-block;
+    background-image: url("../img/sprite-chrome.png");
+      }
 
 .enter { /*a класс*/
- font-size:21px;
+font-size:21px;
 color: black;
 background: white;
 text-align: center;
 text-decoration: none;
- height: 36px;
-width: 121px;
-margin-top:20px;
-
+padding-top:12px;
+margin-top:25px;
+width: 108px;
 display: inline-block;
-padding-top:9px;
-
+vertical-align: top;
+margin-left: 18px;
+padding-left:2px;
+padding-right: 11px;
+height:33px;
 }
 .registration { /*a класс*/
- font-size:21px;
+font-size:21px;
 color: black;
 background: white;
 text-align: center;
 text-decoration: none;
- height: 36px;
+height: 33px;
 width: 150px;
-margin-left:10px;
+margin-left:7px;
 display: inline-block;
-padding-top:9px;
-
-
+padding-top:12px;
+vertical-align: top;
+margin-top:25px;
 }
+
 
 
 .header-low{
 background: #f1f5f7;
-padding-top: 20px;
-height: 257px;
-padding-bottom:10px;
+padding-top: 0px;
+padding-bottom:60px;
 
 }
 
-.nav-container{
+.main-menu{  /*nav*/
 background: #32425c;
-height: 60px;
 margin:auto;
 width: 940px;
-margin-top: 80px;
+padding-bottom: 0px;
+padding-top: 10px;
 
 }
-.nav-menu li {
+.nav-menu  {  /*ul*/
+list-style-type: none;   
+margin:0px;
 
- list-style-type: none;   
+    /*white-space: nowrap;?*/ 
+    
+
+
 }
-.nav-bookmarks{
+
+.nav-menu li{
+display: inline-block; 
+
+}
+
+.nav-menu li:nth-child(1) {
+
+margin-left:-4px;
+
+}
+.nav-menu li:nth-child(2) {
+
+margin-left:35px;
+
+}
+.nav-menu li:nth-child(3) {
+
+margin-left:30px;
+
+}
+
+.nav-menu li:nth-child(4) {
+
+margin-left:32px;
+
+}
+
+.nav-menu li:nth-child(5) {
+
+margin-left:31px;
+
+}
+
+.nav-menu li:nth-child(6) {
+
+margin-left:33px;
+
+}
+.nav-menu li:nth-child(7) {
+
+margin-left:35px;
+
+}
+.nav-bookmarks {   /*ссылки в меню*/
 font-size:17px;
 color: white;
-text-align: center;
-float: left;
+display: block;
 text-decoration: none;
-height: 45px;
-padding-right:28px;
-margin-left: 22px;
-margin-right: 10px;
-padding-top:15px;
+padding: 6px 10px 20px 15px;
+margin-left: 0px;
+margin-right: 0px;
+
+
 }
+
+
+
+
 
 .content-block-a{
 width: 300px;
@@ -236,9 +328,19 @@ height: 123px;
  float:left;   
 background:#f6b22d; 
 margin-right:20px;
-
+background-image: url("../img/vedro.png");
+background-repeat: no-repeat;
+background-position: 83% 54%;
 }
-
+.badge-new{
+position: relative;
+background-image: url("../img/new.png");
+left: 240px;
+background-repeat: no-repeat;
+bottom: 58px;
+width: 60px;
+height: 59px;
+}
 .content-block-b{
 width: 300px;
 height: 123px;
@@ -286,10 +388,10 @@ text-decoration: none;
 background:#dda028;
 display:block;
 text-transform:uppercase;
-margin-left: 32px;
-margin-top:-40px;
+margin-left: 24px;
+margin-top:-54px;
 padding-top:8px;
-
+margin-bottom: 0px;
 
 }
 
@@ -304,15 +406,15 @@ display:inline-block;
 vertical-align: top;
 font-size: 24px;
 color: white;
-padding-left: 30px;
+padding-left: 23px;
 width: 81px;
-height: 22px;
-margin-bottom: 0px;
-padding-right: 90px;
 
+margin-bottom: 10px;
+padding-right: 0px;
+letter-spacing: 0.5px;
 }
 .up-promo{
-padding-top: 60px;
+padding-top: 58px;
 
 }
 
@@ -325,6 +427,4 @@ font-weight:bold;
 
 .slides{
 float:left;
-
-
 
