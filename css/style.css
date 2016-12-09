@@ -352,7 +352,9 @@ margin-right:10px;
 }
 .content-block-b a {
  background:#429dc7;
-
+ margin-left: 24px;
+ margin-top:5px;
+ padding-top:8px;
 }
 
 .content-block-c{
@@ -365,7 +367,15 @@ font-size: 24px;
 margin-left: 10px;
 }
 .content-block-c a {
- background:#b76dbc;}
+ background:#b76dbc;
+ margin-left: 22px;
+ margin-top:5px;
+ padding-top:8px;
+
+}
+
+
+
 
 .content-block-d{
 width: 300px;
