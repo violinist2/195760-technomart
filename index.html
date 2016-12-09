@@ -15,41 +15,48 @@
             <!--центровщик-->
             <div class="container">
                 <a class="logo-techmart" href="#">Техномарт</a>
-                <form class="formline" action="#" method="get">
+                <span class="sprite-icon-search"></span>        
+               <form class="formline" action="#" method="get">
                     <input type="search" name="search" value="" placeholder="Поиск:">
-                </form>
+               </form>
                 <div class="bookmark">
-                    <a class="bookmarks" href="#">Закладки: 0</a>
+                    <a class="nav-line-links" href="#">Закладки: 0</a>
                 </div>
                 <div class="basket">
-                    <a class="bookmarks" href="#">Корзина: 0</a>
+                    <a class="nav-line-links" href="#">Корзина: 0</a>
+                    
                 </div>
                 <div class="checkout">
-                    <a class="bookmarks" href="#">Оформить заказ</a>
+                    <a class="nav-line-links" href="#">Оформить заказ</a>
                 </div>
             </div>
         </div>
         <!--секция хедера-->
         <section class="header-low">
             <!--центровщик второй части хедера-->
-            <div class="container">
+            <div class="container clearfix">
                 <!--блок с заголовком тел регистрацией-->
-                <div class="header-light-block">
-                    <h1 class="header-text">Интернет магазин строительных материалов и инструментов для ремонта</h1>
-                    <div class="phone">
-                        <p class="phone-number">+7 (812) 555-05-55</p>
+                <!--<div class="header-light-block">-->
+                <div class="header-left-block clearfix">    
+                    <h1 class="header-text">Интернет-магазин строительных материалов<br>и инструментов для ремонта</h1>
+                 <div class="phone">
+                    +7 (812) 555-05-55
+                 </div>
+                    <div class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
                     </div>
-                    <p class="address">г. Санкт-Петербург,ул. Б. Конюшенная, д. 19/8</p>
-                    <div class="user-enter">
+                </div>
+                   <div class="user-block">
                         <!--блок для незарегистрированного пользователя-->
                         <a class="enter" href="#">Войти</a>
-                      
+                    <!--</div> -->
+                    <!--<div class="enter-registration">-->  
                         <a class="registration" href="#">Регистрация</a>
-                     </div>
+                   </div>
+                        
                 </div>
             </div>
-            <div class="nav-container">
-                <nav class="main-menu">
+            <div class="container clearfix">
+               <nav class="main-menu clearfix">
                     <ul class="nav-menu">
                         <li>
                             <a class="nav-bookmarks" href="#">Главная</a>
@@ -73,19 +80,18 @@
                             <a class="nav-bookmarks" href="#">Контакты</a>
                         </li>
                     </ul>
-                </nav>
+               </nav>
             </div>
         </section>
     </header>
     <main>
-        <div class="container">
+        <div class="container clearfix">
             <div class="all-promo">
                 <div class="up-promo">
                     <div class="content-block-a">
                         <p class="items-name">Материалы</p>
-                        <img class="white-img" src="img/vedro.png" width="44" height="65" alt="Материалы">
-                        <a class="items" href="#">На любой вкус</a>
-                        
+                            <div class="badge-new"></div>      
+                                <a class="items" href="#">На любой вкус</a>
                     </div>
                     <div class="content-block-b">
                         <p class="items-name">Инструмент</p>
