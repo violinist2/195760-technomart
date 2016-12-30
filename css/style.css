@@ -45,7 +45,7 @@ background: #32425c;
 color:#ffffff;
 background:#ee3643;
 font-size: 24px;
-width:219px;
+width:220px;
 padding:9px 0px;
 text-align: center;
 display: inline-block;
@@ -922,7 +922,7 @@ padding-top: 20px;
 
 .pre-slider{
  display:block;
- margin-top:25px;   
+ margin-top:24px;   
  margin-bottom:30px;
  font-size: 13px;
  font-family: "PT Sans"; 
@@ -1117,14 +1117,17 @@ height: 322px;
 width: 220px;
 background: #ee3643;
 padding-top: 7px;
-margin-right: 25px;
+margin-right: 0px;
 text-decoration: none;
 text-transform:uppercase;
 height: 31px;
 text-align: center;
-margin-top: 26px;
-padding-left:1px;
+margin-top: 34px;
+padding-left:0px;
 border-radius: 3px;
+font-family:"Cuprum";
+padding-right:-1px;
+font-size: 14px;
 }
 
 .btn-feedback{
@@ -1133,12 +1136,11 @@ border-radius: 3px;
 width: 220px;
 background: #ee3643;
 padding-top: 7px;
-margin-right: 25px;
 text-decoration: none;
 text-transform:uppercase;
 height: 31px;
 text-align: center;
-margin-top: 26px;
+margin-top: 34px;
 padding-left:40px;
 padding-right:40px;
 border-radius: 3px;
@@ -1158,12 +1160,25 @@ font-size: 13px;
 }
 
 .section-map{
-width:310px;
+width:300px;
 float: right;
 margin-top:14px; 
 margin-bottom: 80px;
-margin-left: 10px;
+
+margin-right: 0px;
 }
+
+.section-map p{
+display:inline-block;
+width: 180px;
+margin-top: 24px;
+margin-bottom: 31px;
+font-size: 13px;
+font-family: "PT Sans";
+margin-left:-1px;
+}
+
+
 
 .h-down{
 font-size: 30px;
@@ -1171,22 +1186,43 @@ text-transform:uppercase;
 font-family: "Cuprum";
 font-weight: lighter;
 margin-bottom:5px;
-padding-top:5px;
+padding-top:6px;
 }
 .section-technomart p{
-display:block;
-width: 530px;
+display:inline-block;
+width: 550px;
+margin-top: 24px;
+margin-bottom: 0px;
+font-size: 13px;
+font-family: "PT Sans";
+
 }
 .section-technomart ul{
 width:400px;
+margin-top: 18px;
+margin-bottom: 0px;
+padding-left: 0px;
 
 }
 
  .shipping
  {
+margin-top: 14px;
 list-style-type:none;
-
+font-size: 18px;
+font-family: "Cuprum";
+margin-top: 17px;
  }
+
+.shipping::before{
+content: "";
+background:url("../img/line.png") no-repeat;
+width: 25px;
+height: 2px;
+margin-bottom: 4px;
+margin-right: 10px;
+display: inline-block;
+}
 
 
 
