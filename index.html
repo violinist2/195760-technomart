@@ -14,12 +14,14 @@
         <!--первая часть хедера-->
         <div class="search-bookmarks">
             <!--центровщик-->
-            <div class="container">
+            <div class="container clearfix">
                 <a class="logo-techmart" href="#">Техномарт</a>
-                <span class="sprite-icon-search"></span>
-                <form class="formline" action="#" method="get">
-                    <input type="search" name="search" value="" placeholder="Поиск:">
-                </form>
+                    <form class="formline" action="#" method="post">
+                        <label for="search">Поиск:</label>
+                        <input type="search" class="input-formline" id="search" name="search" placeholder="Поиск:">
+                        <!-- <button type="submit">Искать</button>-->
+                    </form>
+                <!--</div>-->
                 <div class="bookmark">
                     <a class="nav-line-links" href="#">Закладки: 0</a>
                 </div>
@@ -103,19 +105,17 @@
                 </div>
                 <div class="down-promo clearfix">
                     <div class="slider">
-                       <input type="radio" id="botn-1" name="f-controls" checked>
-                       <input type="radio" id="botn-2" name="f-controls">
-                         <div class="slider-controls">
-                           <label for="botn-1"><span class="left"><img src="img/.icon-left.png" width="22" height="40" alt="left"</span></label>
-                           <label for="botn-2"><span class="right"><img src="img/.icon-right.png" width="22" height="40" alt="right"</span></label>
-                         </div>
-                        
+                        <input type="radio" id="botn-1" name="f-controls" checked>
+                        <input type="radio" id="botn-2" name="f-controls">
+                        <div class="slider-controls">
+                            <label for="botn-1"><span class="left"><img src="img/.icon-left.png" width="22" height="40" alt="left"</span></label>
+                            <label for="botn-2"><span class="right"><img src="img/.icon-right.png" width="22" height="40" alt="right"</span></label>
+                        </div>
                         <div class="slides">
                             <div class="slide">
                                 <h2 class="slide-title">Перфораторы</h2>
                                 <p class="slide-text">Настроящие мужские игрушки</p>
                                 <!--слово настроящие в макете так и задуманно?-->
-                                
                                 <a class="open-catalog" href="#">Открыть каталог</a>
                             </div>
                             <div class="slide">
@@ -123,7 +123,7 @@
                                 <p class="slide-text">Cоседям на радость!</p>
                                 <a class="open-catalog" href="#">Открыть каталог</a>
                             </div>
-                        </div>    
+                        </div>
                     </div>
                     <div class="down-promo-right">
                         <div class="content-block-d">
@@ -170,7 +170,7 @@
                     </div>
                     <div class="price">15500 P.
                     </div>
-                 </div>
+                </div>
                 <div class="item">
                     <div class="actions">
                         <a class="buy" href="#">Купить</a>
@@ -201,8 +201,8 @@
                 </div>
             </div>
         </div>
-         <!--следующий такой же блок поп производители+бренды-->
-        <div class="container clearfix">    
+        <!--следующий такой же блок поп производители+бренды-->
+        <div class="container clearfix">
             <div class="popular-products">
                 <h2 class="main-pop-products">Популярные производители:</h2>
                 <a class="link-main-pop-products" href="#">Все производители</a>
@@ -211,7 +211,7 @@
                 <a class="brand-badge" href="#"><img src="img/bosch.png" width="126" height="37" alt="Bosch"></a>
             </div>
             <div class="brands">
-                <a class="brand-badge"  href="#"><img src="img/Makita.png " width="123" height="40" alt="Makita"></a>
+                <a class="brand-badge" href="#"><img src="img/Makita.png " width="123" height="40" alt="Makita"></a>
             </div>
             <div class="brands">
                 <a class="brand-badge-3" href="#"><img src="img/DeWALT.png " width="146" height="44" alt="DeWalt"></a>
@@ -235,8 +235,8 @@
         <section class="services">
             <div class="container clearfix">
                 <h3 class="h-down">Сервисы</h3>
-                <p class="pre-slider">Хороший интернет-магазин отличается от прохого не только ценами!<br>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-               
+                <p class="pre-slider">Хороший интернет-магазин отличается от прохого не только ценами!<br>Мы стараемся изо всех сил, чтобы сделать
+                    ваши покупки приятными.</p>
                 <div class="s-slider">
                     <input type="radio" id="btn-1" name="controls" checked>
                     <input type="radio" id="btn-2" name="controls">
@@ -246,125 +246,128 @@
                         <label for="btn-2">Гарантия</label>
                         <label for="btn-3">Кредит</label>
                     </div>
-                       <div class="s-slides">
-                       
+                    <div class="s-slides">
                         <div class="s-slide">
-                           <div class="s-slide-text">
-                            <div class="title-s-slide">Доставка
-                            </div>    
-                                <p class="s-slider-text2">Мы с удовольствием доставим ваш товар прямо<br> к вашему подъезду совершенно бесплатно!<br>Ведь мы неплохо заработаем,<br> поднимая его на ваш на этаж!</p>
-                           </div>
+                            <div class="s-slide-text">
+                                <div class="title-s-slide">Доставка
+                                </div>
+                                <p class="s-slider-text2">Мы с удовольствием доставим ваш товар прямо<br> к вашему подъезду совершенно бесплатно!<br>Ведь
+                                    мы неплохо заработаем,<br> поднимая его на ваш на этаж!</p>
+                            </div>
                         </div>
                         <div class="s-slide">
                             <div class="s-slide-text">
                                 <div class="title-s-slide">Гарантия
                                 </div>
-                            <p>Если купленный у нас товар поломается или заискрит,<br> а также в случае пожара, спровоцированного его возгоранием,<br>вы всегда можете быть уверенны в нашей гарантии. Мы обменяем сгоревший товар на новый.<br> Дом уж восстановите как-нибудь сами.</p>
+                                <p>Если купленный у нас товар поломается или заискрит,<br> а также в случае пожара, спровоцированного
+                                    его возгоранием,<br>вы всегда можете быть уверенны в нашей гарантии. Мы обменяем сгоревший
+                                    товар на новый.<br> Дом уж восстановите как-нибудь сами.</p>
                             </div>
                         </div>
                         <div class="s-slide">
                             <div class="s-slide-text">
                                 <div class="title-s-slide">Кредит
                                 </div>
-                                <p>Залезть в долговую яму стало проще!<br>
-                                Кредитные консультатны придут вам на помощь.</p>
-                            
+                                <p>Залезть в долговую яму стало проще!<br> Кредитные консультатны придут вам на помощь.</p>
                                 <a class="credit-a" href="#">Отправить заявку</a>
                             </div>
                         </div>
-                      
-                       </div>
+                    </div>
                 </div>
         </section>
         <section class="maps">
             <div class="container clearfix">
-               <div class="section-technomart">
-                <h3 class="h-down">Компания &laquo;Техномарт&raquo;</h3>
-                <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит
-                     равнодушными съэкономить на гастарбайтерах.</p>
-                <p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>Техномарт работает со мнoгими транспортными
-                    компаниями:</p>
-                <ul>
-                    <li class="shipping"><b>Деловые линии</b></li>
-                    <li class="shipping"><b>Автотрейдинг</b></li>
-                    <li class="shipping"><b>ЖелДорЭкспедиция</b></li>
-                </ul>
-                <a class="btn" href="#">Подробнее о компании</a>
-               </div>
-               <div class="section-map">
-                <h3 class="h-down">Контакты</h3>
-                <p>Вы можете забрать товар сами, заехав к нам в офис:</p>
-                <a href="#"><img src="img/map.png" width="300" height="158" alt="Карта проезда"></a>
-                <a class="btn-feedback" href="#">Заблудились? Напишите нам!</a>
-               </div>
+                <div class="section-technomart">
+                    <h3 class="h-down">Компания &laquo;Техномарт&raquo;</h3>
+                    <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит
+                        равнодушными любителей сэкономить на гастарбайтерах.</p>
+                    <p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>Техномарт работает со мнoгими транспортными
+                        компаниями:
+                    </p>
+                    <ul>
+                        <li class="shipping">Деловые линии</li>
+                        <li class="shipping">Автотрейдинг</li>
+                        <li class="shipping">ЖелДорЭкспедиция</li>
+                    </ul>
+                    <a class="btn" href="#">Подробнее о компании</a>
+                </div>
+                <div class="section-map">
+                    <h3 class="h-down">Контакты</h3>
+                    <p>Вы можете забрать товар сами, заехав к нам в офис:</p>
+                    <a href="#"><img src="img/map.png" width="300" height="158" alt="Карта проезда"></a>
+                    <a class="btn-feedback" href="#">Заблудились? Напишите нам!</a>
+                </div>
             </div>
         </section>
     </main>
     <footer class="main-footer">
-        <div class="low-nav1">
-              <div class="container">  
-                <a class="logo-techmart" href="#">Техномарт</a>
-                <div class="nav-container-low">
-                    <nav class="low-menu">
-                        <ul class="low-list-1">
-                            <li>
-                                <a href="#">Компания</a>
-                            </li>
-                            <li>
-                                <a href="#">Новости</a>
-                            </li>
-                            <li>
-                                <a href="#">Каталог</a>
-                            </li>
-                            <li>
-                                <a href="#">Доставка</a>
-                            </li>
-                            <li>
-                                <a href="#">Контакты</a>
-                            </li>
-                        </ul>
-                    </nav>
+        <div class="blue-back">
+            <!--синий бекграунд1-->
+            <div class="container clearfix">
+                <div class="logo-low">
+                    <a class="logo-techmart" href="#">Техномарт</a>
                 </div>
-            </div>
-            <div class="low-nav2">
-              <div class="container clearfix">
-                <div class="footer-contacts">
-                    Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8 Телефон: +7 (812) 666-02-66
-                </div>
-                <nav class="low-menu-2">
-                    <ul class="low-list-2">
+                <nav class="low-menu-1">
+                    <ul class="low-list-1">
                         <li>
-                            <a href="# ">Материалы</a>
+                            <a href="#">Компания</a>
                         </li>
                         <li>
-                            <a href="# ">Техника</a>
+                            <a href="#">Новости</a>
                         </li>
                         <li>
-                            <a href="# ">Инструмент</a>
+                            <a href="#">Каталог</a>
                         </li>
                         <li>
-                            <a href="# ">Спецпердложения</a>
+                            <a href="#">Доставка</a>
+                        </li>
+                        <li>
+                            <a href="#">Контакты</a>
                         </li>
                     </ul>
-                 </div>
                 </nav>
-              </div>
+            </div>
+            <div class="low-nav2">
+                <div class="container clearfix">
+                    <div class="footer-contacts">
+                        Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8 Телефон: +7 (812) 666-02-66
+                    </div>
+                    <nav class="low-menu-2">
+                        <ul class="low-list-2">
+                            <li>
+                                <a href="# ">Материалы</a>
+                            </li>
+                            <li>
+                                <a href="# ">Техника</a>
+                            </li>
+                            <li>
+                                <a href="# ">Инструмент</a>
+                            </li>
+                            <li>
+                                <a href="# ">Спецпердложения</a>
+                            </li>
+                        </ul>
+                </div>
+                </nav>
+            </div>
         </div>
         <section class="footer-social">
             <div class="container">
                 <div class="copyright">
                     <p class="copyright">2010-2016 Компания "Техномарт" все права защищены</p>
                 </div>
-                <div class="social-index">
-                    <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-                    <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-                    <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+                <div class="social">
+                    <a class="social-btn sprite-icon-vk" href="https://vk.com"></a>
+                    <a class="social-btn sprite-icon-facebook" href="#"></a>
+                    <a class="social-btn sprite-icon-instagramm" href="#"></a>
                 </div>
-                <div class="email">
+                <div class="developer">
+                    <p>Обратная связь:</p>
                     <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
                 </div>
                 <div class="developer">
-                    <p>Разработано-<a href="#">htmlacademy.ru</a></p>
+                    <p>Разработано-</p>
+                    <a href="#">htmlacademy.ru</a>
                 </div>
             </div>
         </section>
