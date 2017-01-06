@@ -139,12 +139,12 @@ background: #212a3a;
 border: white 0px;
 
 }
-
+/* 
 .input :focus{
  background: #ffffff url("../img/.icon-search-red.png") no-repeat 20px 12px;
 
 
-}
+} */
 
 .formline :focus{
  width: 270px;
