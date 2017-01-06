@@ -120,7 +120,7 @@ input::-moz-placeholder { /* Firefox 19+ */
 input:-ms-input-placeholder { /* IE 10+ */
   color: #ffffff;
 }
-/*далее полная "тупь"(типо 3 положения) она работает, нахрена такие навороты*/
+/*далее полная "..."( 3 положения), нахрена такие навороты*/
 .formline:hover {
 background: #212a3a;
 border: white 0px;
@@ -164,7 +164,7 @@ padding-left: 48px;
   background: #ffffff url("../img/.icon-search-red.png") no-repeat 20px 12px;
   border: white 0px;
 }
-/*тупь закончилась*/
+/*... закончилась*/
 
 .bookmark:before {
     content: "";
@@ -1286,7 +1286,7 @@ span.right {
 
 .blue-back .logo-techmart {
     font-size: 30px;
-    padding: 13px 0px;
+    padding: 10.5px 0px;
     float: left;
     
 }
@@ -1315,13 +1315,13 @@ span.right {
     color: white;
     width: 322px;
     float: left;
-    margin-top: 27px;
+    margin-top: 32px;
     margin-bottom: 50px;
     margin-left:3px;
 }
 
 .low-list-2 {
-    margin-top: 27px;
+    margin-top: 32px;
     margin-bottom: 0px;
     display: inline-block;
     width: 530px;
