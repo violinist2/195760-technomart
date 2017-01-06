@@ -139,12 +139,12 @@ background: #212a3a;
 border: white 0px;
 
 }
-/* 
-.input :focus{
+
+/*.input :focus{
  background: #ffffff url("../img/.icon-search-red.png") no-repeat 20px 12px;
 
 
-} */
+}*/
 
 .formline :focus{
  width: 270px;
@@ -1286,35 +1286,47 @@ span.right {
 
 .blue-back .logo-techmart {
     font-size: 30px;
-    padding: 20px 0px;
+    padding: 13px 0px;
     float: left;
+    
 }
 
 .low-menu-1 {
     width: 550px;
     float: right;
+    margin-top: 36px;
+    
+    padding-top:0px;
+    
 }
 
 .low-list-1 {
     width: 550px;
     display: inline-block;
+    padding-left:1px;
+    margin: 0px;
+
 }
 
+
+
 .footer-contacts {
-    font-size: 17px;
+    font-size: 18px;
     color: white;
-    width: 335px;
+    width: 322px;
     float: left;
-    margin-top: 30px;
+    margin-top: 27px;
     margin-bottom: 50px;
+    margin-left:3px;
 }
 
 .low-list-2 {
-    margin-top: 0px;
+    margin-top: 27px;
     margin-bottom: 0px;
     display: inline-block;
     width: 530px;
-    padding-left: 0px;
+    padding-left: 5px;
+
 }
 
 .footer-social {
@@ -1324,12 +1336,17 @@ span.right {
 
 .low-list-1 li {
     display: inline-block;
-    margin-right: 40px;
+    margin-right: 56px;
 }
+.low-list-1 :nth-child(5) {
+    
+    margin-right: 0px;
+}
+
 
 .low-list-1 a {
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
     color: white;
 }
 
@@ -1340,14 +1357,18 @@ span.right {
 
 .low-list-2 a {
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
     color: #ebc27c;
     display: inline-block;
 }
 
 .low-list-2 li {
     display: inline-block;
-    margin-right: 40px;
+    margin-right: 56px;
+}
+
+.low-list-2 :nth-child(4) {
+       margin-right: 0px;
 }
 
 .social-btn {
