@@ -121,7 +121,7 @@ input::-moz-placeholder { /* Firefox 19+ */
 input:-ms-input-placeholder { /* IE 10+ */
   color: #ffffff;
 }
-/*далее полная "тупь"(типо 3 положения) она работает, нахрена такие навороты*/
+/*далее полная "..."(3 положения)нахрена такие навороты*/
 .formline:hover {
 background: #212a3a;
 border: white 0px;
@@ -165,7 +165,7 @@ padding-left: 48px;
   background: #ffffff url("../img/.icon-search-red.png") no-repeat 20px 12px;
   border: white 0px;
 }
-/*тупь закончилась*/
+/*... закончилась*/
 
 .bookmark:before {
     content: "";
@@ -1284,6 +1284,7 @@ span.right {
 
 .blue-back {
     background: #32425c;
+    margin-bottom: 14px;
 }
 
 .blue-back .logo-techmart {
@@ -1373,14 +1374,27 @@ span.right {
        margin-right: 0px;
 }
 
+.footer-social{
+background: #293449;
+padding-bottom: 50px;
+
+}
+
+.social{
+float:left;
+/*margin:30px;*/
+width: 150px;
+margin-top: 35px;
+margin-right:100px;
+}
 .social-btn {
     display: inline-block;
-    width: 41px;
+    width: 42px;
     height: 42px;
     background: #212a3a;
     border-radius: 50%;
     vertical-align: middle;
-    margin-right: 5px;
+    /*margin-right: 2px;*/
 }
 
 .sprite-icon-vk {
@@ -1395,20 +1409,44 @@ span.right {
     background: #212a3a url("../img/.icon-instagramm.png") 13px 12px no-repeat;
 }
 
-.copyright p {
+.copyright {
     color: white;
     font-size: 16px;
-    margin: 0px;
+    margin-left: 1px;
+    float:left;
+    width: 228px;
+    margin-top:20px;
+    line-height:18px;
+    margin-right: 160px;
+
 }
 
 .developer {
-    font-size: 16px;
+   font-size: 16px;
+    width: 138px;
+    float:left;
+    margin-top: 19px;
+    margin-right: 0px;
+/*margin-right: 0px;*/
+margin-left: 0px;
+
+}
+
+.end{
+ margin-left: 51px;
+ width: 100px;
 }
 
 .developer p {
+    margin-top: 17px;
     color: white;
+    margin-bottom: 0px;
+    line-height:17px;
+
 }
 
 .developer a {
     color: #ffd180;
+    text-decoration: none;
+    
 }
