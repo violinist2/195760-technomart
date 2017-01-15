@@ -135,7 +135,7 @@ input:-ms-input-placeholder { /* IE 10+ */
 }
 
 
-.input-formline :hover{
+.input-formline :hover {
     background: #212a3a;
     border: white 0px;
 
@@ -147,7 +147,7 @@ input:-ms-input-placeholder { /* IE 10+ */
 
 }
 
-.formline :focus{
+.formline :focus {
     width: 270px;
     color:black;
     background: #ffffff url("../img/.icon-search-red.png") no-repeat 20px 12px;
@@ -179,10 +179,13 @@ input:-ms-input-placeholder { /* IE 10+ */
     opacity:0.3;
 }
 
+
+
 .bookmark:hover:before {
     opacity:1;
 
 }
+
 
 .nav-line-links {
     /*общий класс ссылок верхней плашки*/
@@ -820,6 +823,22 @@ span.right {
     text-align: center;
     margin-bottom: 22px;
 }
+
+
+.catalog-4 {
+ position: relative;
+    display: inline-block;
+    width: 218px;
+    outline: 1px solid #e5e5e5;
+    line-height: 20px;
+    margin-right: 19px;
+    font-size: 0;
+    text-align: center;
+    margin-bottom: 22px;
+     
+
+}
+
 
 .item:nth-child(4) {
     width: 217px;
@@ -1654,3 +1673,246 @@ label:hover {
     
     }
 
+                         /*--------------стилицация страницы каталога----------------*/
+.red {
+    background:#ee3643;
+
+}
+
+.user-registration {
+    display: none;
+
+}
+.breadcrumbs {
+    margin: 0px;
+  
+
+}
+
+.breadcrumbs li {
+    
+    position: relative;  
+    /*display:inline-block;*/
+    font-size: 13px;
+    font-family: "PT Sans";
+    text-transform:uppercase;
+    padding-top:17px;
+    padding-bottom: 19px;
+    padding-left: 14px;
+    float: left;
+    padding-right: 20px;
+    list-style-type:none;
+
+}
+
+
+
+.breadcrumbs a {
+    text-decoration: none;
+    display: block;
+    
+    color:black;
+     
+    
+
+}
+
+.breadcrumbs-after::after{
+    content:"";
+    position: absolute;
+    left:-42px;
+    width: 15px;
+    height: 12px;
+    background: url("../img/.icon-home.png")no-repeat;
+    display: inline-block;
+    top:22px;
+    
+
+}
+
+.breadcrumbs-1::before {
+    content:"";
+    position: absolute;
+    left:-13px;
+    width: 8px;
+    height: 12px;
+    background: url("../img/.icon-right-l.png")no-repeat;
+    display: inline-block;
+    top:22px;
+
+
+}
+
+
+
+.breadcrumbs-1::after {
+    content:"";
+    position: absolute;
+    left:82px;
+    width: 8px;
+    height: 12px;
+    background: url("../img/.icon-right-l.png")no-repeat;
+    display: inline-block;
+    top:22px;
+
+
+}
+
+.breadcrumbs-2 {
+
+padding-left:6px;
+
+}
+
+
+
+.breadcrumbs-2::after {
+    content:"";
+    position: absolute;
+    left:116px;
+    width: 8px;
+    height: 12px;
+    background: url("../img/.icon-right-l.png")no-repeat;
+    display: inline-block;
+    top:22px;
+
+
+}
+
+.breadcrumbs-3 {
+
+    padding-left: 10px;
+
+
+
+}
+
+.filter {
+    width: 220px;
+    float:left;
+    background: #f7f3ec;
+    
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-transform:uppercase;
+    
+    margin-top:0px;
+
+}
+
+.filter p {
+    padding-left: 18px;
+    font-size: 13px;
+    font-family: "PT Sans";
+    margin:0px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    display: inline-block;
+    
+}
+
+.price-left-column {
+ font-size: 17px;
+ font-weight: bold;
+ text-transform:uppercase;
+ clear: both;
+ font-family: "PT Sans";
+ padding-top: 20px;
+ padding-bottom: 20px;
+
+}
+
+.form-block-title {
+
+ font-size: 17px;
+ font-weight: bold;
+ text-transform:uppercase;
+ clear: both;
+ font-family: "PT Sans";
+ padding-top: 20px;
+ padding-bottom: 20px;   
+
+}
+
+.input-show {
+    font-size: 13px;
+    font-family: "PT Sans";
+    border: 1px solid #e5e5e5;
+    background: white;
+    width: 140px;
+    color: black;
+    text-transform:uppercase;
+    vertical-align: top;
+
+}
+
+.input-checkbox {
+    font-size: 15px;
+    font-family: "PT Sans";
+    clear: both;
+    text-transform:uppercase;
+    float: left;
+}
+
+.form-block {
+
+ width: 220px;   
+}
+.right-column {
+    float:right;
+    background: #f7f3ec;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-transform:uppercase;
+    margin-top:0px;
+    width: 700px;   
+}
+
+.item-sort {
+
+ display: inline-block;   
+}
+
+.left-column-search-filter {
+float: left;
+ width: 220px;   
+
+}
+
+.goods {
+ float: right;
+ width: 700px;   
+}
+
+.catalog-3 {
+
+margin-right: 0px;   
+}
+.item-title-catalog-3 {
+   
+    min-height: 40px;
+    padding: 0 25px;
+    margin-top: 11px;
+    margin-bottom: 44px;
+    font-size: 18px;
+    font-family: "PT Sans";
+    font-weight: bold;
+
+}
+
+
+.item-title-4 {
+    min-height: 40px;
+    padding: 0 20px;
+    margin-top: 11px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: "PT Sans";
+    font-weight: bold;
+}
+
+
+.scale {
+padding: 0px;
+width: 220px;
+}
